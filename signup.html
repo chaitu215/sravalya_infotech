@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form{
+                border:2px solid black;
+                padding:10px;
+                width:500px;
+                background-color: aquamarine;
+                position:absolute;
+                left:350px;
+                top:200px;
+                box-shadow: 10px 10px 10px 10px;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <!--
+            form tag is medium to 
+            interact with users 
+
+            form    
+                input 
+                label
+                p
+            input - types
+                    -> text
+                    -> radio - select one among options
+                    -> date
+                    -> checkbox  - many user can select 
+                    -> button
+                    -> time
+                    -> email 
+        -->
+        <h1> welcome to CSG</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <span style="padding-left:10px"></span> 
+            <a href="home.html">Home</a> 
+            <a style="float:right" href="aboutus.html">About us</a>
+        </nav>
+        <section  style="height:600px;
+        background-color:lightblue ">
+            <form >
+                <label>FirstName :</label>
+                <input type="text" name="fname" 
+                value="Raghu" readonly/> <br/> <br/>
+                <label>Last name:</label>
+                <input type="text" name="lname" size="50"
+                    maxlength="10"/> <br/> <br/>
+                <label>Surname:</label>
+                <input type="text" name="sname" 
+                    value ="Surname NA" disabled /> <br/> <br/>
+                <!-- check box-->
+                <div style="float:right">
+                    <label>Choose location</label> <br />
+                    <input type="checkbox" id="location1"
+                        value="Bengaluru"/>
+                    <label for="location1">Bengaluru</label> <br/>
+                    <input type="checkbox" id="location2"
+                        value ="Chennai"/>
+                    <label for="location2">Chennai </label><br/>
+                    <input type="checkbox" id="location3"
+                        value="Hyderbad" />
+                    <label for="location3">Hyderbad</label> <br/>
+                </div>
+               
+           
+                <!-- radio  -->
+                <label> Select Gender of Candidate</label>
+                <input type="radio" id="male" 
+                    name="gender"
+                    value="male"/>
+                <label for="male">Male</label>
+                <input type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"/>
+                    <label for="female">Female</label>
+                <br/>
+                <br/>
+                <p style="padding-left:1rem"></p>
+                <br/>
+                <br/>
+                <label>Choose technology</label>
+                <select id="course" name="course">
+                    <option>javascipt</option>
+                    <option>html</option>
+                    <option>css</option>
+                </select>
+                <p style="padding-left:1rem"></p>
+               
+                <br/>
+                Time:
+                <span style="padding-left:5rem"></span>
+                 <input  type="Time"/>
+                <p style="padding-left:1rem"></p>
+                Date: 
+                <span style="padding-left:5rem"></span>
+                <input type="Date" required/> <br/>
+                <p style="padding-left:1rem"></p>
+                Email: 
+                <span style="padding-left:4.5rem"></span>
+                <input type="email"/> <br/>
+                <p style="padding-left:1rem"></p>
+                <span style="padding-left:7rem"></span>
+                <input style="border-radius:10px" type="submit"/>
+                <span style="padding-left:1rem"></span>
+                <button style="border-radius:10px">Cancel</button>
+                </form> 
+            </form>
+        </section>
+        <footer>
+            Copyright &copy; CSG 2022
+       </footer>
+    </body>
+</html>

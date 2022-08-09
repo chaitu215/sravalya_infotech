@@ -1,0 +1,44 @@
+nav{
+    padding:20px;
+    background-color: lightgrey;
+    color:lightsteelblue;
+}
+ a {
+    color : purple;
+ }
+
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightyellow;
+    color: black;
+    text-align: center;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: red;
+    width:50%;
+     /* For browsers that do not support gradients */
+    background-image: 
+    linear-gradient(to bottom right, red, yellow);
+  }
+  
+  #grad {
+      height: 200px;
+      width:50%;
+    background-image: linear-gradient(to right, 
+    rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  h1{
+    background-color: brown;
+    height:60px;
+    border-radius: 1rem;
+  }
+  a {
+    height:20px;
+    letter-spacing: 4px;
+    background-color: lightseagreen;
+  }
