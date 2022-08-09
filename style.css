@@ -33,12 +33,20 @@ nav{
     rgba(255,0,0,0), rgba(255,0,0,1));
   }
   h1{
-    background-color: brown;
+    background-color: lightblue;
     height:60px;
-    border-radius: 1rem;
+    border-radius: 0rem;
+    text-align: center;
   }
   a {
     height:20px;
     letter-spacing: 4px;
     background-color: lightseagreen;
+  }
+
+  .section-home-one {
+    background-color: antiquewhite;
+  }
+  .home-page-two{
+    background-color: antiquewhite;
   }
